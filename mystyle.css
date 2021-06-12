@@ -5,3 +5,30 @@ th.important{color:red;}
 p.sample1 {border:double 10px #0000ff;}
 p.sample2 {border:inset 10px #ff0000;}
 p.sample3 {margin:30px 30px;padding: 10px;border:medium solid #ff00ff;}
+
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-image: 
+      repeating-conic-gradient(
+          from var(--ldeg) at 75% 50%,
+          #00000000,0% ,
+          #ff750006 1%,
+          #00000000 2%,
+          #FFFF0006 3%,
+          #00000000 4%),
+        url("https://magazine-cf.techademy.jp/wp-content/uploads/2021/16012113/sunrise.jps");
+        animation: sunrise 1s infinite;
+}
+@keyframes sunrise{
+    0%,10%,20%,30%,40%,50%,60%,70%,90%,100%
+    {
+        --ldeg:5deg;
+    }
+    15%,32%,63%,92%{
+        --ldeg:3deg;
+    }
+}
