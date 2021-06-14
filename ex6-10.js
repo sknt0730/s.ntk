@@ -1,4 +1,4 @@
 function imgchange1(){
-    document.getElementByld('logo').src=
-    './image/bulbon.gif;
+    document.getElementById('logo').src=
+    './image/bulbon.gif';
 }
