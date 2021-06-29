@@ -4,9 +4,11 @@ function sayhello65(){
 }
 function taro65(){
     taro65='太郎'
+    who65="太郎"
     alert(taro65+'が来た');
 }
 function hanako65(){
     hanako65='花子'
+    who65="花子"
     alert(hanako65+'が来た')
 }
